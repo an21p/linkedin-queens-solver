@@ -1,0 +1,5 @@
+packages:
+  - name: quenns-solver
+    actions:
+      - name: quenns-solver
+        runtime: 'python:default'

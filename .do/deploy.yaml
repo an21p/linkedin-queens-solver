@@ -1,0 +1,13 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: master
+    deploy_on_push: true
+    repo: an21p/linkedin-queen-solver
+  name: queen-solver-api
+  routes:
+  - path: /
+  source_dir: /
+name: queen-solver
