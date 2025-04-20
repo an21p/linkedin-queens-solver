@@ -8,12 +8,14 @@ python solver.py path/to/screenshot
 3. Get a png file with the solution
 
 ## Input
-![](./data/1_in.jpg)
+
+<img src="./data/1_in.jpg" alt="input" height="300"/>
 
 ## Output
-![](./data/2025-04-20-02:27:13.086781-input.png)
+<img src="./data/2025-04-20-02:27:13.086781-input.png" alt="output1" width="250"/>
+<img src="./data/2025-04-20-02:27:13.086781-output.png" alt="output1" width="250"/>
 
-![](./data/2025-04-20-02:27:13.086781-output.png)
+![]()
 
 ### How
  - OpenCV to recognise the grid size and colours and conver them to an array
