@@ -18,7 +18,7 @@ python solver.py path/to/screenshot
 <img src="./data/1_in-output.png" alt="output1" width="200"/>
 
 ### Example 2
-<img src="./data/2025-04-20-preview.png" alt="example-2" width="400"/>
+<img src="./data/2025-04-20-preview.png" alt="example-2" width="600"/>
 
 
 
