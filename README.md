@@ -28,8 +28,6 @@ python solver.py path/to/screenshot
  - Backtracking solver adjusted from original n-Queens problem (this version is easier because colours are an extra contraint reducing the search space)
  - Pillow to create the output image from the array
 
-### Coming to a serverless function near you soon
-
 ### Environment setup
 ```bash
 python -m venv venv
