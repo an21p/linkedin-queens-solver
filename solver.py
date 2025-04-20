@@ -62,7 +62,7 @@ if __name__ == "__main__":
         print("Requires image input")
         exit()
     solver = Solver(sys.argv[1])
-    solved_at = datetime.now()
+    solved_at = datetime.strftime(datetime.now(), "%Y-%m-%d-%H:%M:%S.%f")
     solution, _ = solver.solve(f"data/{solved_at}")
     if solution is not None:
         print("solved")

@@ -7,13 +7,20 @@ python solver.py path/to/screenshot
 ```
 3. Get a png file with the solution
 
+## Input
+![](./data/1_in.jpg)
+
+## Output
+![](./data/2025-04-20-02:27:13.086781-input.png)
+
+![](./data/2025-04-20-02:27:13.086781-output.png)
+
 ### How
  - OpenCV to recognise the grid size and colours and conver them to an array
  - Backtracking solver adjusted from original n-Queens problem (this version is easier because colours are an extra contraint reducing the search space)
  - Pillow to create the output image from the array
 
 ### Coming to a serverless function near you soon
-
 
 ### Environment setup
 ```bash
