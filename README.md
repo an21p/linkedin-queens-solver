@@ -7,15 +7,21 @@ python solver.py path/to/screenshot
 ```
 3. Get a png file with the solution
 
-## Input
+## Examples
+### Example 1
+#### Input
 
 <img src="./data/1_in.jpg" alt="input" height="300"/>
 
-## Output
-<img src="./data/2025-04-20-02:27:13.086781-input.png" alt="output1" width="250"/>
-<img src="./data/2025-04-20-02:27:13.086781-output.png" alt="output1" width="250"/>
+#### Output
+<img src="./data/1_in-input.png" alt="output1" width="200"/>
+<img src="./data/1_in-output.png" alt="output1" width="200"/>
 
-![]()
+### Example 2
+<img src="./data/2025-04-20-preview.png" alt="example-2" width="400"/>
+
+
+
 
 ### How
  - OpenCV to recognise the grid size and colours and conver them to an array

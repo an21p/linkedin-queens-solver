@@ -61,7 +61,7 @@ def image_to_grid_array_auto(image_path, warp_size=800):
                    dtype="float32")
     M = cv2.getPerspectiveTransform(rect, dst)
     warped = cv2.warpPerspective(img, M, (warp_size, warp_size))
-    # cv2.imwrite("data/result.png", warped)
+    cv2.imwrite("data/result.png", warped)
 
     # make a binary grid‐line image to detect lines
     warped_gray = cv2.cvtColor(warped, cv2.COLOR_BGR2GRAY)
@@ -75,7 +75,7 @@ def image_to_grid_array_auto(image_path, warp_size=800):
     palette = OrderedDict()
 
     # now chop into N×N cells, sampling only the interior 80%
-    margin = int(cell * 0.5)
+    margin = int(cell * 0.4)
     grid = np.zeros((N, N), dtype=np.uint8)
     for r in range(N):
         for c in range(N):
