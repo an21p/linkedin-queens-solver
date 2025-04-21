@@ -11,17 +11,20 @@ python solver.py path/to/screenshot
 ### Example 1
 #### Input
 
+<p align="middle"> 
 <img src="./data/1_in.jpg" alt="input" height="300"/>
+</p>
 
 #### Output
 <p align="middle"> 
-<img src="./data/1_in-input.png" alt="output1" width="200"/>
-<img src="./data/1_in-output.png" alt="output1" width="200"/>
+<img src="./data/1_in-input.png" alt="output1" width="300"/>
+<img src="./data/1_in-output.png" alt="output1" width="300"/>
 </p>
 
 ### Example 2
+<p align="middle"> 
 <img src="./data/2025-04-20-preview.png" alt="example-2" width="600"/>
-
+</p>
 
 
 
