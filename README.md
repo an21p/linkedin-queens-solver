@@ -14,8 +14,10 @@ python solver.py path/to/screenshot
 <img src="./data/1_in.jpg" alt="input" height="300"/>
 
 #### Output
+<p align="middle"> 
 <img src="./data/1_in-input.png" alt="output1" width="200"/>
 <img src="./data/1_in-output.png" alt="output1" width="200"/>
+</p>
 
 ### Example 2
 <img src="./data/2025-04-20-preview.png" alt="example-2" width="600"/>
